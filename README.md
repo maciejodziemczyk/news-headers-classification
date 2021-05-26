@@ -10,4 +10,6 @@ The main objective of this project was to build a classifier for news headers. I
 
 The next part of this project was about model building and validation, and the final model was built with embeddings + 1D CNN (filter size 3 and relu activation) and 1D Max Poolig (2 filter size) all that was flattened and concatenated with dense branch output. Dense branch was built with only one dense layer wit 60 units and relu activation (65 features was engineered in total). After concatenation, the main branch size was 830 units what was densely connected with next 430 units with relu activation, 0.0005 L2 regularization and 0.3 dropout. The next layer was dense with 215 units, relu and 0.3 dropout. All that connected with softmax classifier with 4 outputs. Categorical Crossentropy loss function and Adam optimizer with default settings.
 
-The model was trained in 256 batches for 20 epochs and the results were very high 91% accuracy on medical, technology (and science) and business and 97% for entertainment (validation set)
+The model was trained in 256 batches for 20 epochs and the results were very high 91% accuracy on medical, technology (and science) and business and 97% for entertainment (validation set). Test results confusion matrix is presented below:
+
+![](https://raw.githubusercontent.com/maciejodziemczyk/news-headers-classification/main/confusion_matrix.png)
