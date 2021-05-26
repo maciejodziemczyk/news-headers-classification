@@ -26,9 +26,9 @@ In this project I learnt a lot about Natural Language Processing, especially cle
 
 ## Repository description
  - News_classification.ipynb - Jupyter Notebook with whole analysis (Python)
- - the data was stroed in data catalog and downloaded from ![ML UCI repository](http://archive.ics.uci.edu/ml/datasets/News+Aggregator)
+ - the data was stroed in data catalog and downloaded from [ML UCI repository](http://archive.ics.uci.edu/ml/datasets/News+Aggregator)
  - I didn't upload created data folders because of its size (you can generate it with notebook)
- - GloVe embeddings was stored in GloVe catalog and can be downloaded from ![Stanford page](https://nlp.stanford.edu/projects/glove/)
+ - GloVe embeddings was stored in GloVe catalog and can be downloaded from [Stanford page](https://nlp.stanford.edu/projects/glove/)
 
 ## Technologies
  - Python (numpy, pandas, matplotlib, seaborn, nltk, spacy, regex, scikit-learn, keras)
