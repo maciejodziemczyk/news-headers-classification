@@ -25,4 +25,14 @@ Findings:
 In this project I learnt a lot about Natural Language Processing, especially cleaning and feature engineering. I gained more experience with neural networks amd Python too. I really enjoy this type of projects. NLP is fascinating.
 
 ## Repository description
+ - News_classification.ipynb - Jupyter Notebook with whole analysis (Python)
+ - the data was stroed in data catalog and downloaded from ![ML UCI repository](http://archive.ics.uci.edu/ml/datasets/News+Aggregator)
+ - I didn't upload created data folders because of its size (you can generate it with notebook)
+ - GloVe embeddings was stored in GloVe catalog and can be downloaded from ![Stanford page](https://nlp.stanford.edu/projects/glove/)
 
+## Technologies
+ - Python (numpy, pandas, matplotlib, seaborn, nltk, spacy, regex, scikit-learn, keras)
+ - Jupyter Notebook
+
+## Author
+ - Maciej Odziemczyk
