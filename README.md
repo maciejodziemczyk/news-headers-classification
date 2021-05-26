@@ -13,3 +13,16 @@ The next part of this project was about model building and validation, and the f
 The model was trained in 256 batches for 20 epochs and the results were very high 91% accuracy on medical, technology (and science) and business and 97% for entertainment (validation set). Test results confusion matrix is presented below:
 
 ![](https://raw.githubusercontent.com/maciejodziemczyk/news-headers-classification/main/confusion_matrix.png)
+
+As you can see, the test results was very high and overfitting wasn't a problem.
+
+Findings:
+ - Feature engineering is extremely important when working with text data
+ - neural networks are extremely good and flexible, two input model can take word embeddings advantage and also use information lost by them using another dense branch built on engineered features
+ - the data were collected at the ebola outbreak time and Miley Cyrus was very popular then. Kim Kardashian, Kanye West and Jay Z was very popular too. Samsung, Microsoft, Google, Apple and Facebooks are company names mentioned very often in news headers. Business was around USA, China, Russia and Iraq.
+ - Glove embeddings can be used for this type of task paired with 1D CNN and 1D max pooling.
+
+In this project I learnt a lot about Natural Language Processing, especially cleaning and feature engineering. I gained more experience with neural networks amd Python too. I really enjoy this type of projects. NLP is fascinating.
+
+## Repository description
+
