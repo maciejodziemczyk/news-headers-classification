@@ -22,7 +22,7 @@ Findings:
  - the data were collected at the ebola outbreak time and Miley Cyrus was very popular then. Kim Kardashian, Kanye West and Jay Z was very popular too. Samsung, Microsoft, Google, Apple and Facebooks are company names mentioned very often in news headers. Business was around USA, China, Russia and Iraq.
  - Glove embeddings can be used for this type of task paired with 1D CNN and 1D max pooling.
 
-In this project I learnt a lot about Natural Language Processing, especially cleaning and feature engineering. I gained more experience with neural networks amd Python too. I really enjoy this type of projects. NLP is fascinating.
+In this project I learnt a lot about Natural Language Processing, especially cleaning and feature engineering. I gained more experience with neural networks and Python too. I really enjoy this type of projects. NLP is fascinating.
 
 ## Repository description
  - News_classification.ipynb - Jupyter Notebook with whole analysis (Python)
